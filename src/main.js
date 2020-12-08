@@ -13,7 +13,7 @@ sumarParesFor(){
 contarImparesFor(inicio,fin){
     let impares=0;
 
-    for(let i=inicio; i<=fin ; i+1){
+    for(let i=inicio; i<=fin ;i= i+1){
         if(i%2!==0){
             impares= impares+1;
         }
