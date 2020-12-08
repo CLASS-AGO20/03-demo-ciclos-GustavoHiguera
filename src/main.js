@@ -18,9 +18,9 @@ contarImparesFor(inicio,fin){
         inicio=fin;
         fin=t;
     }
-    for(let i=inicio; i<=fin; i=i+1){
+    for(let i=inicio; i<=fin; i++){
         if(i%2!=0){
-            impares= impares+1;
+            impares++;
         }
     }
     return impares;
