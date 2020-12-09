@@ -19,7 +19,7 @@ contarImparesFor(inicio,fin){
         fin=t;
     }
     for(let i=inicio; i<=fin; i++){
-        if(i%2!=0){
+        if(i%2!==0){
             impares++;
         }
     }
@@ -63,14 +63,15 @@ sumarParesDo(){
 }
 
 contarImparesDo(inicio,fin){
-    let i=inicio;
-    let impares=0;
-
     if(inicio>fin){
         let t=inicio;
         inicio=fin;
         fin=inicio;
     }
+    
+    let i=inicio;
+    let impares=0;
+
     do{
         if(i%2!==0){
             impares++;
